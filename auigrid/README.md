@@ -15,14 +15,20 @@
 
 ** 3.
 >> 압출 해제 한 폴더 아래 'AUIGrid', 'AUIGrid-Vue.js' 폴더 두 개를 
-node_modules/infiot-component-auigrid/src/components/auisoft 아래에 붙여넣기한다.
+최상위 폴더 아래 src/auisoft/ 에 붙여넣기 한다.
 
 (예:
-node_modules/infiot-component-auigrid/src/components/auisoft/AUIGrid,
-node_modules/infiot-component-auigrid/src/components/auisoft/AUIGrid-vue.js 
-두 개의 폴더가 생성될 것이다. )
+[project_name]/src/auisoft/AUIGrid,
+[project_name]/src/auisoft/AUIGrid-vue.js 
+두 개의 폴더가 생성될 것이다.)
 
-2, 3의 과정은 AUISoft에서 제공하는 Free Trial을 최신 버전으로 가져오기 위한 과정이며, 이 과정이 생략될 경우 컴파일이 정상적으로 되지 않는다.
+2, 3의 과정은 AUISoft에서 제공하는 Free Trial의 폴더를 가져오기 위한 과정이며, 이 과정이 생략될 경우 컴파일이 정상적으로 되지 않는다.
+
+** 4.
+>> node_modules/infiot-component-auigrid/auigrid/auigrid.vue에서 AUIGrid 하는 부분을 폴더 경로에 맞게 수정한다.
+(예: 
+import AUIGrid from "../../../../../src/auisoft/AUIGrid-Vue.js/AUIGrid.vue";)
+
 
 ## How to use manual
 ``` bash
