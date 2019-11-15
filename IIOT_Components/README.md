@@ -10,13 +10,6 @@
 ** 1.
 >> npm install
 
-** 2.
->> npm install
-
-** 3.
->> npm install
-```
-
 ## How to use manual
 ``` bash
 ### How to use
