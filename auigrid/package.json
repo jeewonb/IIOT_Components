@@ -1,6 +1,6 @@
 {
   "name": "infiot-component-auigrid",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A Vue.js project",
   "author": "sim hyun bo",
   "private": false,
@@ -67,6 +67,6 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeewonb/IIOT_Components/tree/master/auigrid"
+    "url": "https://github.com/jeewonb/IIOT_Components/tree/master/auigrid"
   }
 }

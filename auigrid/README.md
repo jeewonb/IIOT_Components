@@ -10,6 +10,20 @@
 ** 1.
 >> npm install
 
+** 2.
+>> http://www.auisoft.net/demo/auigrid-vue/에서 'Download Free Trial' 클릭하여 정보 입력 후 zip 파일 다운로드
+
+** 3.
+>> 압출 해제 한 폴더 아래 'AUIGrid', 'AUIGrid-Vue.js' 폴더 두 개를 
+node_modules/infiot-component-auigrid/src/components/auisoft 아래에 붙여넣기한다.
+
+(예:
+node_modules/infiot-component-auigrid/src/components/auisoft/AUIGrid,
+node_modules/infiot-component-auigrid/src/components/auisoft/AUIGrid-vue.js 
+두 개의 폴더가 생성될 것이다. )
+
+2, 3의 과정은 AUISoft에서 제공하는 Free Trial을 최신 버전으로 가져오기 위한 과정이며, 이 과정이 생략될 경우 컴파일이 정상적으로 되지 않는다.
+
 ## How to use manual
 ``` bash
 ### How to use
